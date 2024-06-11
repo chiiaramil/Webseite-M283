@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>Alltagsbeispiel</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-card w3-left-align w3-large" style="background-color: #9BB7D4;">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large" style="background-color: #9BB7D4;" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white icon-link"><img src="media/Icon_Home.png" style="width: 20%;"></a>
+    <a href="fallbeispiel.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Fallbeispiel</a>
+    <a href="alltagsbeispiel.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Alltagsbeispiel</a>
+    <a href="abgrenzungskriterien.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Abgrenzungskriterien</a>
+    <a href="rechtswidrigkeiten.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Rechtswidrigkeiten</a>
+    <a href="glossar.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-right icon-link"><img src="media/Icon_Glossar.png" style="width: 20%;"></a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navmobile" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="fallbeispiel.html" class="w3-bar-item w3-button w3-padding-large">Fallbeispiel</a>
+    <a href="alltagsbeispiel.html" class="w3-bar-item w3-button w3-padding-large">Alltagsbeispiel</a>
+    <a href="abgrenzungskriterien.html" class="w3-bar-item w3-button w3-padding-large">Abgrenzungskriterien</a>
+    <a href="rechtswidrigkeiten.html" class="w3-bar-item w3-button w3-padding-large">Rechtswidrigkeiten</a>
+    <a href="glossar.html" class="w3-bar-item w3-button w3-padding-large">Glossar</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-center" style="padding:128px 16px; background-color: #f0f4fc;">
+  <h1 class="w3-margin w3-jumbo">Alltagsbeispiel</h1>
+  <p class="w3-xlarge">Tiffany & Co.</p>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-container">
+  <div class="w3-content w3-center">
+    <h1 style="padding-top: 5%;">Lieber eine hellblaue oder türkise Schachtel?</h1>      
+    <h5 class="w3-padding-32">Die "hellblaue" Schachtel gibt es nicht!</h5>
+    <div>
+      <p class="w3-text-grey">
+        Ein bekanntes Beispiel aus dem Alltag ist das Design der Tiffany «Blue Box», sowie der Schlaufe. Dieses ist urheberrechtlich geschützt und ein ikonisches Merkmal der Marke. 
+        Tiffany & Co. ist eine renommierte amerikanische Schmuck- und Luxuswarenmarke, die weltweit für ihre hochwertigen Schmuckstücke, insbesondere ihre Verlobungsringe und ihre charakteristische «Blue Box», bekannt ist.
+        <br><br>
+        Verpackung ist seit über einem Jahrhundert ein Bestandteil der Markenidentität von Tiffany & Co. Die Geschichten von Heiratsanträgen, besonderen Geschenken und bedeutenden Ereignissen, die mit einer Tiffany «Blue Box» verbunden sind, haben sie zu einem kulturellen Symbol gemacht. Darüber hinaus ist das Design der Schlaufe, die die Tiffany Blue Box verschliesst, ebenfalls urheberrechtlich geschützt.
+        <br><br>
+        Mit dem Designschutz will Tiffany & Co., dass die Exklusivität und den Wert ihrer Marke erhalten bleibt. Somit können sie Nachahmungen verhindern.
+      </p>
+    </div>
+    </div>
+  </div>
+</div>
+  <div class="w3-center">
+    <div class="w3-content w3-display-container" style="width: 30%; margin-bottom: 5%;">
+      <img class="mySlides" src="media/beispiele/Tiffany_Bild1.jpg" style="width:100%">
+      <img class="mySlides" src="media/beispiele/Tiffany_Bild2.png" style="width:100%">
+      <img class="mySlides" src="media/beispiele/Tiffany_Bild3.png" style="width:100%">
+
+      <button class="w3-button w3-display-left w3-hover-blue-grey" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-display-right w3-hover-blue-grey" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+  </div>
+
+<!-- Second Grid -->
+<div class="w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content w3-center">
+    <button onclick="document.getElementById('id04').style.display='block'" class="w3-button w3-padding-large w3-large w3-margin-top w3-hover-blue-grey w3-round-xxlarge" style="background-color: #9BB7D4;">Verwendete Quellen</button>
+  </div>
+  <div id="id04" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id04').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+    <p style="font-weight: bold;">Informationen</p>
+    <ul>
+      <li><a href="https://www.tiffany.com/policy/trademarks-copyrights/">Tiffany & Co.</a>
+        <p style="font-style: italic; margin: 0;">besucht am 27.05.2024</p>
+      </li>
+      <li><a href="https://en.wikipedia.org/wiki/Tiffany_Blue#:~:text=Since%201998%2C%20the%20Tiffany%20Blue,the%20year%20of%20Tiffany's%20foundation.">Wikipedia</a>
+        <p style="font-style: italic; margin: 0;">besucht am 27.05.2024</p>
+      </li>
+      <li><a href="https://secureyourtrademark.com/blog/tiffany-blue/">SecureYourTrademark</a>
+        <p style="font-style: italic; margin: 0;">besucht am 27.05.2024</p>
+      </li>
+    </ul>
+    <p style="font-weight: bold;">Bilder</p>
+    <ul>
+      <li>https://secureyourtrademark.com/blog/tiffany-co-trademarks/
+        <p style="font-style: italic; margin: 0;">besucht am 27.05.2024</p>
+      </li>
+      <li>https://www.dailyartmagazine.com/painters-trademarked-colors/
+        <p style="font-style: italic; margin: 0;">besucht am 27.05.2024</p>
+      </li>
+    </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center">  
+  <div class="w3-row w3-white">
+   <div class="w3-col s6 w3-center">
+     <br>
+     <p>Modul 283</p>
+     <br>
+   </div>
+   <div class="w3-col s6 w3-center">
+     <p>Sabrina Leuthard <br> Colin Kunz <br> Chiara Milano</p>
+   </div>
+ </div>
+ </footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navmobile");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

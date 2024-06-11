@@ -1,0 +1,84 @@
+/*Font Definition für Selektor Tags*/
+body,h1,h2,h3,h4,h5,h6 {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+
+
+/*Font Definition für Nav, h1, Button*/
+.w3-bar,h1,button {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+
+
+/*Grösse der Beiden Icons auf Startseite*/
+.fa-anchor,.fa-coffee {font-size:200px}
+
+
+@media (max-width: 700px) {
+    h1.w3-jumbo {
+        font-size: 2.5em !important;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .img-fallbeispiel {
+        width: 200px;
+    }
+}
+
+@media (max-width: 700px) {
+    .img-zahl {
+        width: 95%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .img-zahl-rechts {
+        margin: 10px 0 10px auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .cards {
+      width: 100% !important;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .cardsige {
+      margin-bottom: 15%;
+    }
+  }
+
+@media (min-width: 700px) {
+    .cards {
+      margin-bottom: 10%;
+    }
+  }
+
+@media (max-width: 700px) {
+    .popup {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .dieb {
+    width: 100% !important;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .textdieb {
+    width: 100% !important;
+    }
+  }
+
+.icon-link {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
