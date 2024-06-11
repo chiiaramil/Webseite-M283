@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>Abgrenzungskriterien</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-card w3-left-align w3-large" style="background-color: #9BB7D4;">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large" style="background-color: #9BB7D4;" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white icon-link"><img src="media/Icon_Home.png" style="width: 20%;"></a>
+    <a href="fallbeispiel.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Fallbeispiel</a>
+    <a href="alltagsbeispiel.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Alltagsbeispiel</a>
+    <a href="abgrenzungskriterien.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Abgrenzungskriterien</a>
+    <a href="rechtswidrigkeiten.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Rechtswidrigkeiten</a>
+    <a href="glossar.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-right icon-link"><img src="media/Icon_Glossar.png" style="width: 20%;"></a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navmobile" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="fallbeispiel.html" class="w3-bar-item w3-button w3-padding-large">Fallbeispiel</a>
+    <a href="alltagsbeispiel.html" class="w3-bar-item w3-button w3-padding-large">Alltagsbeispiel</a>
+    <a href="abgrenzungskriterien.html" class="w3-bar-item w3-button w3-padding-large">Abgrenzungskriterien</a>
+    <a href="rechtswidrigkeiten.html" class="w3-bar-item w3-button w3-padding-large">Rechtswidrigkeiten</a>
+    <a href="glossar.html" class="w3-bar-item w3-button w3-padding-large">Glossar</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-center" style="padding:128px 16px; background-color: #f0f4fc;">
+  <h1 class="w3-margin w3-jumbo">Abgrenzungskriterien</h1>
+  <p class="w3-xlarge">Patente und Designs</p>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-container">
+  <div class="w3-content">
+    <h1 style="padding-top: 5%;">Was sind die geografischen Grenzen eines Patentes?</h1>      
+    <h5 class="w3-padding-32">In der Schweiz gelten die Rechte die im Bundesgesetzt verfasst sind. Darüber hinaus gelten dann die Internationalen Gesetzgebungen für Designrecht und geistiges Eigentum.</h5>
+    <div class="w3-twothird">
+      <p class="w3-text-grey">Das Amt der Europäischen Union für geistiges Eigentum (EUIPO) ist die Beobachtungsstelle für Verletzungen von Rechten des geistigen Eigentums. Nach Eintragung durch das Amt und Einsteigerkosten von etwa 230 Euro wird ein "Geschmacksmuster", für einen Zeitraum von fünf Jahren geschützt.
+        Die World Intellectual Property Organization (WIPO) ist die weltweit verbreiteste Quelle für Informationen über geistiges Eigentum (Patente, gewerbliche Muster, Urheberrechte, Marken und mehr). Mit ihrem "Hague" System ermöglicht sie Designern und Unternehmen mit einer einzigen Anmeldung ein Designschutz in mehreren Ländern zu erlangen.
+    </div>
+
+    <div class="w3-third w3-center">
+      <div class="w3-content w3-display-container" style="width: 80%;">
+        <img class="mySlides" src="media/abrenzungskriterien/Karussell_Bild1.png" style="width:100%">
+        <img class="mySlides" src="media/abrenzungskriterien/Karussell_Bild2.png" style="width:100%">
+        <img class="mySlides" src="media/abrenzungskriterien/Karussell_Bild3.png" style="width:100%">
+  
+        <button class="w3-button w3-display-left w3-hover-blue-grey" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right w3-hover-blue-grey" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
+  
+    </div>
+  </div>
+</div>
+  <div class="w3-row-padding w3-content">
+    <p style="font-weight: bold;">Funktionsweise des Hague Systems</p>
+         <ul>
+          <li>Antragsteller müssen Staatsangehörige, Gebietsansässige oder eine gewerbliche Niederlassung in einem der 79 Ländern des Hague-Abkommens haben.</li>
+          <li>Mit einer einzigen internationalen Anmeldung kann Designschutz in bis zu 96 Ländern beantragt werden.</li>
+          <li>Die Anmeldung wird bei der WIPO eingereicht und von dieser auf formale Anforderungen geprüft. Die Vertragsstaaten führen dann die materiellrechtliche Prüfung durch.</li>
+          <li>Es können bis zu 100 Designs pro Anmeldung eingereicht werden, sofern sie derselben Designklasse angehören.</li>
+          <li>Die Veröffentlichung der Designs kann bis zu 30 Monate aufgeschoben werden.</li>
+         </ul>
+        <p style="padding-bottom: 5%;">
+        Die territorialen Grenzen eines Patents werden durch das jeweilige nationale Recht bestimmt. Ein Patent, das in der Schweiz erteilt wurde, bietet Schutz nur innerhalb der Grenzen der Schweiz. Um den Schutz auf andere Länder auszudehnen, müssten separate Patentanmeldungen in diesen Ländern eingereicht werden, entweder direkt oder über internationale Patentkooperationsverträge wie das PCT (Patent Cooperation Treaty).
+        Wo die Erfindung nicht geschützt ist, dürfen Dritte grundsätzlich frei auf die Erfindung zugreifen.
+        Das heisst wenn ein Patent in der Schweiz erteilt wurde, kann das national geschützte Produkt woanders kopiert werden
+        (Wirkung des Patentes: PatG Art. 8 ff).
+      </p>
+  </div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container"  style="background-color: #9BB7D4;">
+  <div class="w3-content">
+      <h1>Wie unterscheidet sich der Schutz eines Designs vom Schutz eines Patents?</h1>
+      <p>Ein Patent ist ein Schutzrecht für eine technische Erfindung. Beim Designrecht handelt es sich jedoch nur um ein ästhetisches Schutzrecht, deshalb lässt sich auch nur die äussere Gestaltung eines Designs schützen.
+        Das Designrecht schützt Gestaltungen die von Erzeugnissen durch Linien, Flächen, Konturen, Farben oder durch das verwendete Material charakterisiert werden (DesG Art. 3, Definition Design).
+        <br><br>
+        Patentieren lassen sich Produkte (bspw. Eine neue Spielkonsole) und Verfahren (bspw. Funktionsweise eines Kugelschreibers). Die Erfindung muss ein Problem auf eine neue, unvorhersehbare und technische Art und Weise lösen (PatG Art. 4, Definition Erfindung).
+      </p>
+      <p style="font-weight: bold;">Beispiel Controller</p>
+      <p>Angenommen du bist tätig in einem Unternehmen und hast zusammen mit deinen Arbeitskollegen einen neuen Controller zum Spielen erfunden. Diese möchtet ihr nun auf verschiedene Arten schützen. 
+        <br>
+        Ein Patent schützt die technischen Innovationen, wie z.B. die einzigartige Funktionsweise des Controllers. Das Designrecht hingegen sichert das ästhetische Erscheinungsbild des Controllers, einschliesslich der Form und Farben. So sind Patente für die Funktionalität, Designrechte für das Aussehen zuständig.
+        </p>
+  </div>
+</div>
+
+<!--Third Grid-->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <h1>Kann ein Patent, nachdem es erstellt wurde, angefochten werden?</h1>
+    <div class="w3-third w3-center w3-padding-32">
+      <img src="media/abrenzungskriterien/9_Monate.png" style="width: 35%;">
+    </div>
+    <div class="w3-twothird">
+      <p class="w3-padding-32">
+       Gemäss dem IGE kann ein Patent innerhalb von 9 Monaten nach der Erteilung von Dritten angefochten werden. Bei Nichterfüllen der Voraussetzungen kann das Patent komplett oder teilweise widerrufen werden. Auch nach Ablauf der 9 Monaten kann das Patent noch durch eine Nichtigkeitsklage vor Gericht angefochten werden.
+       Die Frist von 9 Monaten nach der Erteilung, von Dritten das Patent anfechten können, wird in PatG Art. 26 festgelegt.
+       PatG Art. 27 regelt die Verfahrensfristen im Zusammenhang mit der Anfechtung des Patents durch Dritte.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Fourth Grid -->
+<div class="w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content w3-center">
+    <button onclick="document.getElementById('id04').style.display='block'" class="w3-button w3-padding-large w3-large w3-margin-top w3-hover-blue-grey w3-round-xxlarge" style="background-color: #9BB7D4;">Verwendete Quellen</button>
+  </div>
+  <div id="id04" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id04').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <p style="font-weight: bold;">Bilder Karussell</p>
+    <ul>
+      <li><a href="https://www.ige.ch/de/etwas-schuetzen/patente">Bild mit Schraube</a>
+        <p style="font-style: italic; margin: 0;">besucht am 24.05.2024</p>
+      </li>
+      <li><a href="https://www.ige.ch/de/">Bild mit schweizer Artikel</a>
+        <p style="font-style: italic; margin: 0;">besucht am 24.05.2024</p>
+      </li>
+      <li><a href="https://www.ige.ch/de/uebersicht-dienstleistungen/recherchen">Bild mit Lupe und Schrauben</a>
+        <p style="font-style: italic; margin: 0;">besucht am 24.05.2024</p>
+      </li>
+    </ul>
+    <p style="font-weight: bold;">Illustration</p>
+    <ul>
+      <li><a href="https://www.vectorstock.com/royalty-free-vector/icon-list-calendar-day-date-number-9-vector-31575965 ">Kalender</a>  
+        <p style="font-style: italic; margin: 0;">besucht am 24.05.2024</p>
+      </li>
+    </ul>
+    <p style="font-weight: bold;">Informationen</p>
+    <ul>
+      <li>https://www.ige.ch/de/recht-und-politik/immaterialgueterrecht-national/designrecht
+        <p style="font-style: italic; margin: 0;">besucht am 21.05.2024</p>
+      </li>
+      <li>https://www.wipo.int/portal/en/
+        <p style="font-style: italic; margin: 0;">besucht am 21.05.2024</p>
+      </li>
+      <li>https://www.fedlex.admin.ch/eli/cc/2002/226/de
+        <p style="font-style: italic; margin: 0;">besucht am 21.05.2024</p>
+      </li>
+      <li>https://www.perplexity.ai/
+        <p style="font-style: italic; margin: 0;">besucht am 21.05.2024</p>
+      </li>
+      <li>https://www.keltie.com/knowledge/registered-design-vs-design-patent
+        <p style="font-style: italic; margin: 0;">besucht am 21.05.2024</p>
+      </li>
+      <li>https://www.ige.ch/fileadmin/user_upload/schuetzen/patente/d/PA_B_Patentanm_D_072021_bf.pdf 
+        <p style="font-style: italic; margin: 0;">besucht am 21.05.2024</p>
+      </li>
+      <li>https://www.fedlex.admin.ch/eli/cc/1955/871_893_899/de
+        <p style="font-style: italic; margin: 0;">besucht am 21.05.2024</p>
+      </li>
+    </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center">  
+  <div class="w3-row w3-white">
+   <div class="w3-col s6 w3-center">
+     <br>
+     <p>Modul 283</p>
+     <br>
+   </div>
+   <div class="w3-col s6 w3-center">
+     <p>Sabrina Leuthard <br> Colin Kunz <br> Chiara Milano</p>
+   </div>
+ </div>
+ </footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navmobile");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
